@@ -1,0 +1,12 @@
+def main():
+    first = input("Enter your first name")
+    return (first)
+ #Getting full name    
+def fullname():
+    first = main()
+    last = input("Enter your last name")
+    print (first + last)
+
+#Calling function to print full name 
+fullname ()
+    
