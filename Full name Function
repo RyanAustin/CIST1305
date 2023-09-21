@@ -5,7 +5,7 @@ def main():
 def fullname():
     first = main()
     last = input("Enter your last name")
-    print (first + last)
+    print (first, last)
 
 #Calling function to print full name 
 fullname ()
